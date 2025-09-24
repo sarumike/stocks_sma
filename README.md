@@ -1,7 +1,7 @@
 # stocks_sma
-a  python script to track SMAs of AIM stocks
+scripts to track SMAs of AIM stocks
 
-A couple of python scripts to calculate 25 SMA for  AIM sticks in Uk.
+A couple of python scripts to calculate 25 SMA for  AIM stocks in Uk.
 
 This can be applied to any market.
 
@@ -25,7 +25,7 @@ Libraries used by the scripts:
 <br/>Two python scripts:
 
 # aim_25_sma.py
-This downlaods historical data and calculates  SMA from a given date. The source used is Marketstack. Tehuser will need to apply for a API Key to use thsi script.
+This downlaods historical data and calculates  SMA from a given date. The source used is Marketstack. The user will need to apply for a API Key to use this script.
 NB Marketstack API key allows 100 requests per month, ie ticker requests.
 
 Usage:
@@ -38,12 +38,15 @@ ie
 
 --plot : creates a png plot/graph of SMA for each ticker. This is saved in the folder location
 
+NB data folder contains downloaded data for 20 AIM stocks and plots of a couple of stocks for example.
+
+
 #  aim_offline_csv.py
-This script  can be used if the user has manually downloaded histrical data csv files.
+This script  can be used if the user has manually downloaded historical data csv files.
 
 Same functionality and flags as in the previous script  except plotting the graphs.
 
-
+NB csv folder gives examples of historical data downloaded
 
 
 Example usage:
