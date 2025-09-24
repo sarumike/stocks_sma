@@ -31,14 +31,18 @@ os.makedirs(folder, exist_ok=True)
 # -----------------------------
 # Config
 # -----------------------------
-API_KEY = "cb41007838e5cef760c18c132a5bb773"  # <-- Replace with your MarketStack API key
+API_KEY = "API_KEY"  # <-- Replace with your MarketStack API key
 DATE_FROM = "2025-01-01"
 DATE_TO = datetime.today().strftime("%Y-%m-%d")
 LIMIT = 1000
 
 # Example AIM tickers (top 30)
 aim_tickers = [
-    "FEVR.L"
+    "JET2.L", "RWS.L", "FEVR.L", "GBG.L", "POLR.L", "HAT.L", "GTLY.L",
+    "W7L.L", "CMCL.L", "GRP.L", "YCA.L", "FNTL.L", "TPFG.L", "PTAL.L",
+    "UPR.L", "HCM.L", "NIOX.L", "BRCK.L", "LBG.L", "FRP.L", "THX.L",
+    "TFW.L", "TIG.L", "FRAN.L", "MRL.L", "SUP.L", "BOKU.L", "CMCL.L",
+    "GRP.L", "AFM.L", "GGP.L"
 
 ]
 
