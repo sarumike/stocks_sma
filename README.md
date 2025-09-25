@@ -44,7 +44,7 @@ NB data folder contains downloaded data for 20 AIM stocks and plots of a couple 
 #  aim_offline_csv.py
 This script  can be used if the user has manually downloaded historical data csv files.
 
-Same functionality and flags as in the previous script  except plotting the graphs.
+Same functionality and flags as in the previous script  including plotting the graphs.
 
 NB csv folder gives examples of historical data downloaded
 
